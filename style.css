@@ -1,0 +1,101 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgb(235, 235, 235);
+}
+
+/* images  */
+
+.logo {
+  width: 127px;
+  height: 33px;
+  padding-left: 15px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  padding: 0 4px 0 4px;
+}
+
+/* typography */
+
+.bold-text {
+  font-weight: bold;
+}
+
+p {
+  font-weight: 400;
+}
+
+/* layout  */
+
+.main-container {
+  margin: 0 auto;
+  width: 375px;
+  height: auto;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+header .container {
+  width: 375px;
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #C6C6C6;
+  align-items: center;
+}
+
+header .user-avatar {
+  margin-right: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: start;
+  padding: 11px 0 7px 0;
+  margin-left: 5px;
+}
+
+.header > div > div {
+  padding: 0;
+  margin: -2px 0 -6px 0;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.location {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.comment-section {
+  margin-left: 10px;
+}
+
+.reaction-container {
+  padding-top: 16px;
+  padding-bottom: 12px;
+  margin-left: -2px;
+}
+
+.reaction-container > img {
+  padding: 0 3px 0 3px;
+}
+
+.reaction-container > img:hover {
+  opacity: 0.5;
+}
+
+.likes {
+  margin: 0;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+}
